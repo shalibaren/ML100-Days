@@ -1,4 +1,4 @@
-* ### **`ML100-Days`**
+* ## **`Machine Learning 100-Days`**
 
    Data Cleansing, Feature Engineering, Machine Learning, Deep Learning hands on practice.
    
