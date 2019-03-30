@@ -3,6 +3,32 @@
    Data Cleansing, Feature Engineering, Machine Learning, Deep Learning hands on practice.
 
 ***
+#### HW003: Create dataframe, read pics, txt, json, npy, pickle
+- Functions Used
+  - pd.read_csv
+  - .dtypes.value_counts()
+  - skio.imread + plt.imshow(img1)
+  - Image.open + np.array(img2)
+  - cv2.imread + plt.imshow(img3)
+  - sio.savemat + plt.imshow(mat_arr)
+- Discription
+  - Build a dataframe
+  - Read pics in three ways
+  - Read pics by MAT form
+***
+#### HW004: Column Data Type
+- Functions Used
+  - pd.read_csv
+  - .dtypes.value_counts()
+  - from sklearn.preprocessing import LabelEncoder
+  - pd.get_dummies
+- Discription
+  - Read csv files by pandas
+  - Count datatypes of a dataframe
+  - Label Encoder and one hot encoder
+- Link
+  - Label Encoder vs. One Hot Encoder: https://ppt.cc/f1dEhx
+***
 #### HW005: EDA
 - Functions Used
   - .value_counts()
@@ -14,7 +40,7 @@
   - plt.xticks
 - Discription
   - Plot many variables by histogram
-  - See how many unique value in all columns
+  - See how many unique value in each column
 - Link
   - Discriptive Statistics: http://www.hmwu.idv.tw/web/R_AI_M/AI-M1-hmwu_R_Stat&Prob.pdf
   - Discriptive Pandas: https://chrisalbon.com/python/data_wrangling/pandas_dataframe_descriptive_stats/
