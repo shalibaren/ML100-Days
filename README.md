@@ -98,3 +98,15 @@
   - To count the amount after distributed into different categories
   - Observe Specific columns after groupby one or more columns
 ***
+#### HW011: KDE plot
+- Functions Used
+  - sns.kdeplot
+  - sns.distplot
+- Discription
+  - KDE plot by seaborn
+  - KDE bar mixture plot by seaborn distplot
+- Link
+  - KDE plot example: https://ppt.cc/fp0wZx
+  - KDE plot explain: https://blog.csdn.net/unixtch/article/details/78556499
+  - Seaborn barplot example: https://zhuanlan.zhihu.com/p/24553277
+***
