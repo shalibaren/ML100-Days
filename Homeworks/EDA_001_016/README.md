@@ -142,7 +142,7 @@
   - KDE plot explain: https://blog.csdn.net/unixtch/article/details/78556499
   - Seaborn barplot example: https://zhuanlan.zhihu.com/p/24553277
 ***
-#### HW016: Heatmap
+#### HW016: Align train/test data
 - Functions Used
   - .align
   - Imputer, imputer.fit, imputer.transform
