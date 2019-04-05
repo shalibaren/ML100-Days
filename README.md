@@ -3,7 +3,7 @@
    Data Cleansing, Feature Engineering, Machine Learning, Deep Learning hands on practice.
 
 ***
-#### Exploratory Data Analysis
+#### *Exploratory Data Analysis*
    - HW003: Create dataframe, read pics, txt, json, npy, pickle
    - HW004: Column Data Type
    - HW005: EDA
