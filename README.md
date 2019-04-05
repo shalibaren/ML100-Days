@@ -17,5 +17,5 @@
    - HW013: Discretizing practice
    - HW014: Subplots
    - HW015: Heatmap
-   - HW016: Heatmap
+   - HW016: Align train/test data
 ***
