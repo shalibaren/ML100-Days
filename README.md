@@ -91,12 +91,10 @@
 ***
 #### HW010: Supplementary correlation and plot with different range
 - Functions Used
-  - pd.cut
-  - Groupby
-  
+  - np.corrcoef
+  - np.log101
 - Discription
-  - To count the amount after distributed into different categories
-  - Observe Specific columns after groupby one or more columns
+  - Plot and observe the correlation
 ***
 #### HW011: KDE plot
 - Functions Used
@@ -109,4 +107,50 @@
   - KDE plot example: https://ppt.cc/fp0wZx
   - KDE plot explain: https://blog.csdn.net/unixtch/article/details/78556499
   - Seaborn barplot example: https://zhuanlan.zhihu.com/p/24553277
+***
+#### HW012: Discretizing
+- Functions Used
+  - pd.cut(column_data, 4)
+  - pd.qcut(column_data, 4)
+- Discription
+  - cut data in same range by n
+  - cut data in same count by n
+***
+#### HW013: Discretizing practice
+***
+#### HW014: Subplots
+- Functions Used
+  - np.linspace(20, 70, num = 11)
+  - plt.subplot(row,column,idx)
+  - .value_counts().keys()
+- Discription
+  - Divide numbers of points in two points 
+  - Display many plots at a time 
+  - list all unique value in a column
+***
+#### HW015: Heatmap
+- Functions Used
+  - sns.heatmap
+  - enumerate()
+  - sns.PairGrid
+- Discription
+  - KDE plot by seaborn
+  - KDE bar mixture plot by seaborn distplot
+  - upper, diag, lowwer plots
+- Link
+  - Heatmap example: https://zhuanlan.zhihu.com/p/35494575
+  - KDE plot explain: https://blog.csdn.net/unixtch/article/details/78556499
+  - Seaborn barplot example: https://zhuanlan.zhihu.com/p/24553277
+***
+#### HW016: Heatmap
+- Functions Used
+  - .align
+  - Imputer, imputer.fit, imputer.transform
+  - MinMaxScaler, scaler.fit, scalar.transform
+  - .to_csv
+- Discription
+  - Align the training and testing data, keep only columns present in both dataframes
+  - imputation of missing values
+  - Scale each feature (e.g from 0 to 1)
+  - Save file to csv
 ***
